@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>请选择你最喜欢的语言</title>
+    <style type="text/css">
+        .body{width: 600px;height: 400px;opacity:0.9;margin:20px auto;color:red;background-color:red;}
+        #j{width:120px;height:70px;background-color:#E0FFFA;text-align:center;line-height:70px;position: absolute;left:450px;top:250px;border-radius:8px;}
+        #z{width:98px;height:70px;background-color:#FFEFE0;text-align:center;line-height:70px;position: absolute;left:750px;top:250px;border-radius:8px;}
+    </style>
+    <script type="text/javascript">
+        function zhende () {
+            alert("PHP是世上最好的语言！");
+        }
+        function jiade () {
+            var top = [130,150,180,210,240,260,300];
+            var left= [400,430,460,490,520,550,570,590,620,640,660,680,];
+            var index = Math.floor((Math.random()*top.length));
+            var index = Math.floor((Math.random()*left.length));
+            var jd = document.getElementById('j');
+            j.style.top=top[index]+'px';
+            j.style.left=left[index]+'px';
+        }
+        function jiade2(){
+            alert("你赢了");
+        }
+    </script>
+</head>
+<body>
+<h1 style="text-align:center;">请选择你最喜欢的语言</h1>
+
+<div class="body">
+    <div id="j" onmouseover="jiade()">
+        <div id="jj" onclick="jiade2()">
+           <strong>J A V A</strong>
+        </div>
+    </div>
+    <a href="" onclick="zhende()">
+        <div id="z">
+            <div id="zd"><strong>P H P</strong></div>
+        </div>
+    </a>
+</div>
+</body>
+</html>
+<html>
+<boby>
+</body>
+
+<script language="javascript">
+
+</script>
+</html>
